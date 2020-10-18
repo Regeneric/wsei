@@ -12,7 +12,7 @@ const taskTwo = () => {
         console.log(arr[0], arr[1]);
         console.log(arr[arr.length-1]);
         console.log(...arr);
-        console.log(...arr.filter(a => arr.indexOf(a)&1));
+        console.log(...arr.filter(a => Number(!(a&1))));
         console.log(...arr.filter(a => typeof a == "string"));
         console.log(...arr.filter(a => typeof a == "number"));
 }
