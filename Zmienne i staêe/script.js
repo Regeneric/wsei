@@ -1,4 +1,6 @@
 const taskOne = () => {
+    console.log("Zadanie 1");
+
     let someNumber = 42;
     let someWords = "Hello there!";
     let howToConcat = 2 + '2';
@@ -9,6 +11,8 @@ const taskOne = () => {
 }
 
 const taskTwo = () => {
+    console.log("Zadanie 2");
+
     let a = 13, b = 37;
     let sum = 0;
 
@@ -16,6 +20,8 @@ const taskTwo = () => {
 }
 
 const taskThree = () => {
+    console.log("Zadanie 3");
+
     let x;
     console.log(x);
     // `undefined` oznacza, że do zmiennej nie została przypisana żadna wartość

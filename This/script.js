@@ -1,4 +1,6 @@
 const taskOne = () => {
+    console.log("Zadanie 1");
+
     const person = {
         imie: "Jan",
         nazwisko: "Kowalski",
@@ -31,8 +33,6 @@ const taskOne = () => {
         }
     };
 
-
-    
     person.showAll();
     person2.showAll();
 
@@ -46,6 +46,8 @@ const taskOne = () => {
 }
 
 const taskTwo = () => {
+    console.log("Zadanie 2");
+
     const person = {
         imie: "Jan",
         nazwisko: "Kowalski",
@@ -85,6 +87,8 @@ const taskTwo = () => {
 }
 
 const taskThree = () => {
+    console.log("Zadanie 3");
+
     const mathObj = (a, b) => new Object({a, b});
         const add = obj => obj.a + obj.b;
         const sub = obj => obj.a - obj.b;
@@ -102,6 +106,8 @@ const taskThree = () => {
 }
 
 const taskFour = () => {
+    console.log("Zadanie 4");
+
     const ladderSteps = 7;
     const person = {
         isOnTop: false,
